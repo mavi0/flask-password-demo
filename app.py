@@ -6,7 +6,7 @@ app.secret_key = os.environ.get('SECRET_KEY', 'demo-secret-key-not-secure')
 
 # Simple user database for demo purposes
 USERS = {
-    'admin': 'password123',
+    'admin': 'pass123',
     'user': 'secret456',
     'demo': 'plaintext'
 }

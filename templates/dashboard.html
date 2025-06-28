@@ -3,7 +3,7 @@
 {% block title %}Dashboard - Welcome{% endblock %}
 
 {% block content %}
-<h1>🎉 Welcome, {{ username }}!</h1>
+<h1>Welcome, {{ username }}!</h1>
 
 {% with messages = get_flashed_messages(with_categories=true) %}
     {% if messages %}
@@ -14,7 +14,7 @@
 {% endwith %}
 
 <div class="demo-info">
-    <strong>🎯 Mission Accomplished!</strong><br>
+    <strong>Mission Accomplished!</strong><br>
     Your credentials were successfully transmitted in plain text over HTTP. 
     Anyone running Wireshark on the network could have seen:
     <ul style="margin-top: 0.5rem; margin-left: 1rem;">
@@ -29,7 +29,7 @@
     Use filter <code>http.request.method == "POST"</code> to see form submissions!
 </div>
 
-<h2>Secure Login Checklist ✅</h2>
+<h2>Secure Login Checklist</h2>
 <div style="background: #f8f9fa; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
     <p style="margin-bottom: 0.5rem;"><strong>To make this secure, you would need:</strong></p>
     <ul style="margin-left: 1rem;">

@@ -15,7 +15,7 @@ docker run --rm -p 5000:5000 ghcr.io/mavi0/flask-password-demo:latest
 Visit `http://localhost:5000` in your browser.
 
 ### Demo Credentials
-- **Username:** `admin` | **Password:** `password123`
+- **Username:** `admin` | **Password:** `pass123`
 - **Username:** `user` | **Password:** `secret456`  
 - **Username:** `demo` | **Password:** `plaintext`
 
