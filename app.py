@@ -25,7 +25,7 @@ def login():
         flash(f'Welcome, {username}! Login successful.', 'success')
         return render_template('dashboard.html', username=username)
     else:
-        flash('Invalid username or password. Try admin/password123 or user/secret456', 'error')
+        flash('Invalid username or password.', 'error')
         return redirect(url_for('index'))
 
 @app.route('/logout')
